@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Advice generator app</title>
+  </head>
+  <body class="bg-Dark-Blue flex min-h-screen items-center justify-center p-2">
+    <div
+      class="bg-Dark-Grayish-Blue relative w-[400px] rounded-lg p-6 shadow-2xl"
+    >
+      <h3
+        class="text-Neon-Green text-center text-sm font-bold uppercase"
+        id="advice-number"
+      ></h3>
+      <p
+        class="text-Light-Cyan mt-4 text-center font-semibold"
+        id="advice-text"
+      ></p>
+      <img class="my-6" src="./images/pattern-divider-desktop.svg" alt="" />
+      <button
+        class="bg-Neon-Green hover:shadow-Neon-Green absolute bottom-0 left-1/2 flex h-14 w-14 -translate-x-1/2 translate-y-1/2 items-center justify-center rounded-full transition-transform active:scale-95"
+        id="advice-generator-btn"
+      >
+        <img src="./images/icon-dice.svg" alt="" />
+      </button>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

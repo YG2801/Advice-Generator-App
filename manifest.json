@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Advice Generator",
+  "version": "1.0.0",
+  "description": "An app that gives you random advice",
+  "icons": {
+    "32": "./src/images/favicon-32x32.png"
+  },
+  "action": {
+    "default_popup": "./src/index.html",
+    "default_icon": "./src/images/favicon-32x32.png"
+  }
+}
